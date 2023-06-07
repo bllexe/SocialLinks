@@ -1,1 +1,105 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin:0;
+    padding: 0;
+    background-color: #4f4f52;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Times New Roman' 'Times New Roman', Times, serif;
+}
+
+
+
+
+  .share__button svg {
+    margin-top: 7px;
+    margin-left: 8px;
+  }
+
+  .container {
+    width: 150%;
+    max-width: 980px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: 
+    none;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tile {
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    background-color: #bab4c2;
+    color: rgb(0, 0, 0);
+    margin: 7px;
+    border-radius: 15px;
+    box-shadow: 0px 21px 76px 10px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 21px 76px 10px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 21px 76px 10px rgba(0, 0, 0, 0.39);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.04);
+  }
+
+  .tile__share-button {
+    margin-top: 8px;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #deccff9c;
+  }
+
+  .tile__share-button svg {
+    margin-left: 8px;
+    margin-top: 7px;
+  }
+
+  .image__container {
+    height: 96px;
+    width: 96px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 1px 13px 71px 1px rgba(0, 0, 0, 0.39);
+      -webkit-box-shadow: 1px 13px 71px 1px rgba(0, 0, 0, 0.39);
+      -moz-box-shadow: 1px 13px 71px 1px rgba(0, 0, 0, 0.39);
+  }
+
+  @media screen and (min-width: 768px) {
+    .image__container {
+      height: 120px;
+      width: 120px;
+    }
+  }
+
+  .image__container img {
+    height: 100%;
+  }
+
+  .icon {
+    margin: 4px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p{
+   
+    color: #030007;
+  }
